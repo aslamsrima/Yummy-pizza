@@ -1,0 +1,100 @@
+.App {
+  height: 12vmin;
+  text-align: center;
+}
+
+.App-logo {
+  height: 12vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.product-container{
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.imgContentBox{
+	position: relative;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+}
+.postDetailBox {
+    bottom: 0px;
+    left: 0;
+    background-color: #fff;
+    border-top: 1px solid #888888;
+    width: 100%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    min-height: 100px;
+}
+.postDetailBox p{
+  padding-left: 10px;
+  font-size: small;
+  color: grey;
+  margin-bottom: 0%;
+  padding-top:5px;
+}
+
+.panelBody{
+  background:#F2F2F3;
+}
+.postImg{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+}
+.Caption{
+  font-size:medium;
+  color:#000;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top:10px;
+}
+@media (max-width:767px){
+    
+  .pcardsMainSection {
+    padding: 1em 1em;
+}
+  
+}
+@media (min-width:768px) and (max-width:991px){
+  .pcardsMainSection {
+    padding: 1em 1em;
+}
+}
